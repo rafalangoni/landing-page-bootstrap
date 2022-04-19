@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --cor-darkred: darkred;
+    --font-pacifico: 'Pacifico', cursive
+}
+
 .imagem-carrossel{
     object-fit: cover;
     object-position: 80%;
     height: 400px;
+}
+
+.fonte-titulo{
+    font-family: var(--font-pacifico);
+}
+
+.cor-especial{
+    color: var(--cor-darkred);
 }
