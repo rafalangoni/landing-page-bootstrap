@@ -7,7 +7,7 @@
 
 .imagem-carrossel{
     object-fit: cover;
-    object-position: 80%;
+    object-position: 0 80%;
     height: 400px;
 }
 
@@ -23,4 +23,17 @@
     background-color: var(--cor-darkred);
     border-color: var(--cor-darkred);
     color: white;
+}
+
+.card-button:hover{
+    color: bisque;
+}
+
+.tamanho-card-receitas{
+    max-width: 18rem;
+}
+
+.configuracoes-img-carrossel{
+    object-fit: cover;
+    height: 200px;
 }
