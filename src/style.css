@@ -18,3 +18,9 @@
 .cor-especial{
     color: var(--cor-darkred);
 }
+
+.card-button{
+    background-color: var(--cor-darkred);
+    border-color: var(--cor-darkred);
+    color: white;
+}
